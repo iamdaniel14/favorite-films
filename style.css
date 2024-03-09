@@ -1,0 +1,33 @@
+body{
+width: 100%;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+background-color: aqua;
+}
+#movie-container{
+position: relative;
+width: 400px;
+background-color: brown;
+margin-top: 50px;
+margin-left: 50px;
+}
+.movie-poster{
+display: block;
+ margin-left: auto;
+margin-right: auto;
+}
+.plot-paragraph{
+padding: 20px;
+}
+.movie-title{
+ padding-left: 10px;
+}
+.release-date{
+    width: fit-content;
+padding:10px;
+background-color:white;
+}
+.movie-actors,.film-director{
+    padding: 10px;
+}
