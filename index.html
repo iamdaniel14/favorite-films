@@ -7,9 +7,14 @@
     <title>favorite film</title>
   </head>
   <body>
-    <header>
-      <div id="header-container">
+    <header id="header-container">
+      <div >
         <h1 id="header-title">Search for your favorite movie</h1>
+      </div>
+
+      <div id="my-form">
+        <input id="search" type="search" placeholder="search movie title" onkeyup="findMovie()"  />
+      
       </div>
     </header>
 
@@ -18,11 +23,9 @@
         <div id="display-container"></div>
       </div>
       <div id="search-container">
-        <div id="my-form">
-          <input id="search" type="search" placeholder="search keyword" onkeyup="findMovie()"  />
-        
-        </div>
-        <template id="searched-container"></template>
+        <!-- <div id="searched-container">
+          
+        </div> -->
       </div>
     </main>
 

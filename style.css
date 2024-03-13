@@ -1,49 +1,70 @@
-body{
-width: 100%;
+*{
 margin: 0px;
 padding: 0px;
 box-sizing: border-box;
-background-color: aqua;
+}
+
+body{
+width: 100%;
+background-color:white;
 }
 
 #header-container{
+width:1800px;
 display: flex;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+background-color: rgb(163, 163, 184);
 }
-
-
 
 #header-title{
- font-size: 50px;
+font-size: 50px;
+padding: 20px;
 
 }
-#movie-searched-container{
-width: 40%;
-height: 1000px;
-background-color: black;
-display: flex;
-justify-content: center;
 
-}
 #display-container{
 position: relative;
-width: 70%;
-background-color: brown;
+width: 50%;
 margin-top: 50px;
 margin-left: 50px;
 }
 
 main{
+ width:1800px;
 display: flex;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+gap: 10px;
 }
+#search-container{
+ width: 1200px;
+ background-color: brown;
+ display: flex;
+flex-wrap: wrap;
+ gap: 20px; 
+    }
+
+#movie-searched-container{
+ width: 600px;
+ background-color: black;
+ display: flex;
+justify-content: center;
+    
+    }
 .movie-poster{
+width: 300px;
 display: block;
 margin-left: auto;
 margin-right: auto;
 }
 .plot-paragraph{
-padding: 20px;
+padding: 0px;
+color: white;
 }
 .movie-title{
  padding-left: 10px;
@@ -55,33 +76,19 @@ background-color:white;
 }
 .movie-actors,.film-director{
  padding: 10px;
+ color: blanchedalmond;
 }
-#search-container{
-width: 100%;
-display: flex;
-flex-direction: column;}
+
 
 input[type=submit] {
 color: black;
 }
 
-#searched-movies-container{
-width: 100%;
-height: 100%;
-background-color: rgb(96, 96, 120);
-}
-
-#searched-container{
-width: 100%;
-display: flex;
-flex-direction: row;
-gap: 10px;
-flex-wrap: wrap;
-}
 
 .movie-container{
-width: 300px;
-background-color: blue;
+width: 200px;
+background-color:gray;
+height: 450px;
 }
 .image{
  display: block;
@@ -93,4 +100,18 @@ margin-left: auto;
 .movie-title{
 color: azure;
 
+}
+
+.movie-actors{color: blanchedalmond;
+
+}
+.hide_item{
+display: none;
+
+}
+
+input[type="search"] {
+width: 200px;
+height: 30px;
+border-radius: 50px;
 }
